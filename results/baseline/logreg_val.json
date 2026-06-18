@@ -1,0 +1,83 @@
+{
+  "model": "logreg",
+  "split": "val",
+  "n_rows": 2053688,
+  "inference_sec": 3.58,
+  "threshold": 0.6175,
+  "threshold_mode": "tuned_on_this_split",
+  "F1_macro": 0.9689,
+  "MCC": 0.9392,
+  "PR_AUC": 0.978792,
+  "ROC_AUC": 0.993683,
+  "FPR_at_TPR95": 0.032117,
+  "binary": {
+    "precision": 0.9182,
+    "recall": 0.9953,
+    "FPR": 0.032738,
+    "FNR": 0.004661
+  },
+  "confusion": {
+    "TN": 1450893,
+    "FP": 49107,
+    "FN": 2581,
+    "TP": 551107
+  },
+  "per_class_recall": {
+    "Benign": {
+      "n": 1500000,
+      "recall": 0.9673
+    },
+    "Bot": {
+      "n": 14423,
+      "recall": 0.9884
+    },
+    "DDoS HOIC": {
+      "n": 161157,
+      "recall": 1.0
+    },
+    "DDoS LOIC-HTTP": {
+      "n": 43399,
+      "recall": 1.0
+    },
+    "DDoS LOIC-UDP": {
+      "n": 357,
+      "recall": 0.9552
+    },
+    "DoS GoldenEye": {
+      "n": 4029,
+      "recall": 0.7853
+    },
+    "DoS Hulk": {
+      "n": 270445,
+      "recall": 1.0
+    },
+    "DoS Slowhttptest": {
+      "n": 15832,
+      "recall": 1.0
+    },
+    "DoS Slowloris": {
+      "n": 1541,
+      "recall": 0.0461
+    },
+    "FTP-Patator": {
+      "n": 28545,
+      "recall": 1.0
+    },
+    "SSH-Patator": {
+      "n": 13897,
+      "recall": 1.0
+    },
+    "Web Attack - Brute Force": {
+      "n": 39,
+      "recall": 0.0
+    },
+    "Web Attack - Sql Injection": {
+      "n": 7,
+      "recall": 0.0
+    },
+    "Web Attack - XSS": {
+      "n": 17,
+      "recall": 0.0
+    }
+  }
+}

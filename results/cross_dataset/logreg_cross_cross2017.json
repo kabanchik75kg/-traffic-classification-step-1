@@ -1,0 +1,83 @@
+{
+  "model": "logreg_cross",
+  "split": "cross2017",
+  "n_rows": 1837498,
+  "inference_sec": 3.96,
+  "threshold": 0.6175,
+  "threshold_mode": "frozen_from_val",
+  "F1_macro": 0.7821,
+  "MCC": 0.569,
+  "PR_AUC": 0.582679,
+  "ROC_AUC": 0.879418,
+  "FPR_at_TPR95": 0.284116,
+  "binary": {
+    "precision": 0.6258,
+    "recall": 0.7413,
+    "FPR": 0.140354,
+    "FNR": 0.258674
+  },
+  "confusion": {
+    "TN": 1199787,
+    "FP": 195888,
+    "FN": 114288,
+    "TP": 327535
+  },
+  "per_class_recall": {
+    "Benign": {
+      "n": 1395675,
+      "recall": 0.8596
+    },
+    "Bot": {
+      "n": 735,
+      "recall": 0.0531
+    },
+    "DDoS": {
+      "n": 95683,
+      "recall": 0.747
+    },
+    "DoS GoldenEye": {
+      "n": 6765,
+      "recall": 0.9687
+    },
+    "DoS Hulk": {
+      "n": 158988,
+      "recall": 0.9982
+    },
+    "DoS Slowhttptest": {
+      "n": 4866,
+      "recall": 0.0898
+    },
+    "DoS Slowloris": {
+      "n": 5674,
+      "recall": 0.0594
+    },
+    "FTP-Patator": {
+      "n": 4003,
+      "recall": 0.998
+    },
+    "Heartbleed": {
+      "n": 11,
+      "recall": 0.0
+    },
+    "PortScan": {
+      "n": 160106,
+      "recall": 0.5065
+    },
+    "SSH-Patator": {
+      "n": 2959,
+      "recall": 0.9993
+    },
+    "Web Attack - Brute Force": {
+      "n": 1360,
+      "recall": 0.9471
+    },
+    "Web Attack - Sql Injection": {
+      "n": 12,
+      "recall": 1.0
+    },
+    "Web Attack - XSS": {
+      "n": 661,
+      "recall": 0.9728
+    }
+  }
+}
